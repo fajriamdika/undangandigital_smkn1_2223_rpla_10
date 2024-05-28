@@ -9,7 +9,8 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-lg-4">
+           <div class="d-flex flex-grow-1 justify-content-center align-items-center">
+             <div class="col-lg-4">
                 <div class="card">
                     <div class="card-header">
                         <h1>Login</h1>
@@ -29,6 +30,7 @@
                     </div>
                 </div>
             </div>
+           </div>
         </div>
     </div>
 </body>
