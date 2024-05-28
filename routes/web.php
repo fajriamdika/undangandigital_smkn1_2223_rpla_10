@@ -1,5 +1,6 @@
 <?php
 use \App\Http\Controllers\LoginController;
+use App\Http\Controllers\UndanganController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,3 +18,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/login',[LoginController::class,'FormLogin'])->name('login.form');
+
+Route::get('/Undangan',[UndanganController::class,'index'])->name('ProjectPkk.Undangan');
