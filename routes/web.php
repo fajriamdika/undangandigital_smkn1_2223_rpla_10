@@ -1,5 +1,6 @@
 <?php
 use \App\Http\Controllers\LoginController;
+use App\Http\Controllers\PesanController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,3 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/login',[LoginController::class,'FormLogin'])->name('login.form');
+Route::get('/pemesanan',[PesanController::class,'index'])->name('pesan,index');
