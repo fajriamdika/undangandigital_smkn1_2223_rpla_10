@@ -8,6 +8,6 @@ class UndanganController extends Controller
 {
     //
     public function index(){
-        return view('ProjectPkk.Undangan');
+        return view('ProjectPkk.undangan');
     }
 }
