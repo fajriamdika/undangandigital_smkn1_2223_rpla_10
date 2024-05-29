@@ -17,7 +17,7 @@
                     <div class="card-body">
                         <div class="form-group">
                             <label>USERNAME</label>
-                            <input type="text"class="form-control" name="username" placeholder="USERNAME@GMAIL.com"/>
+                            <input type="text"class="form-control" name="username" placeholder="USERNAME"/>
                         </div>
                         <div class="form-group">
                             <label>PASSWORD</label>

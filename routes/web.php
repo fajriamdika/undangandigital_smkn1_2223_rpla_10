@@ -1,6 +1,10 @@
 <?php
 use \App\Http\Controllers\LoginController;
+// <<<<<<< HEAD
 use App\Http\Controllers\PesanController;
+
+use App\Http\Controllers\PaketController;
+// >>>>>>> 30e98294f9dfb8a236f1139f1817ee4d94c67c09
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,4 +22,16 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/login',[LoginController::class,'FormLogin'])->name('login.form');
+// <<<<<<< HEAD
+Route::prefix('/pemesanan')->group(function(){
+    Route::get('/',[PesanController::class,'index'])->name('pesan,index');
+    Route::post('/simpan',[PesanController::class,'simpan'])->name('pesan.simpan');
+
+});
 Route::get('/pemesanan',[PesanController::class,'index'])->name('pesan,index');
+
+Route::prefix('/paket')->group(function(){
+    Route::get('/',[PaketController::class,'index'])->name('paket.index');
+    Route::get('/tambah',[PaketController::class,'tambah'])->name('paket.tambah');
+});
+// >>>>>>> 30e98294f9dfb8a236f1139f1817ee4d94c67c09

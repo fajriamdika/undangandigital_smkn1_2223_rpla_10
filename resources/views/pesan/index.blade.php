@@ -19,30 +19,30 @@
         <div class="container-fluid h-custom">
             <div class="row d-flex justify-content-center align-items-center h-100">
                 <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
-                    <form>
+                    <form method="POST" id="tambah" action="{{url('pesan/simpan')}}">
 
                         <!-- Email input -->
                         <div data-mdb-input-init class="form-outline mb-4">
                             <label class="form-label" for="form3Example3">Nama Pemesan (sesuaikan dengan akun tokopedia)</label>
-                            <input type="text" id="namaPemesan" class="form-control form-control-lg" />
+                            <input type="text" id="namaPemesan" name="nama_pemesan" class="form-control form-control-lg" />
                         </div>
 
                         <!-- Data input -->
                         <div data-mdb-input-init class="form-outline mb-3">
                             <label class="form-label" for="form3Example4">Nama Pengantin Pria (sertakan nama panggilan)</label>
-                            <input type="text" id="namaPengantinPria" class="form-control form-control-lg" placeholder="Aditya Putra (Adit)" />
+                            <input type="text" id="namaPengantinPria" name="nama_pengantin_pria" class="form-control form-control-lg" placeholder="Aditya Putra (Adit)" required />
                         </div>
                         <div data-mdb-input-init class="form-outline mb-3">
                             <label class="form-label" for="form3Example4">Nama Pengantin Wanita (sertakan nama panggilan)</label>
-                            <input type="text" id="namaPengantinWanita" class="form-control form-control-lg" placeholder="Siti Jubaedah (Siti)" />
+                            <input type="text" id="namaPengantinWanita" name="nama_pengantin_wanita" class="form-control form-control-lg" placeholder="Siti Jubaedah (Siti)" required />
                         </div>
                         <div data-mdb-input-init class="form-outline mb-3">
                             <label class="form-label" for="form3Example4">Nama Orang Tua Pengantin Pria</label>
-                            <input type="text" id="priaAnakDari" class="form-control form-control-lg" placeholder="Bapak Adam & Ibu Hawa" />
+                            <input type="text" id="priaAnakDari" name="pria_anak-dari" class="form-control form-control-lg" placeholder="Bapak Adam & Ibu Hawa" required/>
                         </div>
                         <div data-mdb-input-init class="form-outline mb-3">
                             <label class="form-label" for="form3Example4">Nama Orang Tua Pengantin Wanita</label>
-                            <input type="text" id="wanitaAnakDari" class="form-control form-control-lg" placeholder="Bapak Yanto & Ibu Yani" />
+                            <input type="text" id="wanitaAnakDari" name="wanita_anak_dari" class="form-control form-control-lg" placeholder="Bapak Yanto & Ibu Yani" required />
                         </div>
                         <div class="file-upload">
                             <label for="file-input">Foto Pengantin Pria :</label>
@@ -72,13 +72,14 @@
                         </div> -->
 
                         <div class="text-center text-lg-start mt-4 pt-2">
-                            <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg btnLogin" style="padding-left: 2.5rem; padding-right: 2.5rem;">Submit</button>
+                            <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg btnSimpanBarang" style="padding-left: 2.5rem; padding-right: 2.5rem;">Submit</button>
                             <!-- <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="#!" class="link-danger">Register</a></p> -->
                         </div>
 
                     </form>
                 </div>
             </div>
+            @csrf
         </div>
     </section>
 
@@ -152,6 +153,48 @@
             });
         })
     </script> -->
-</body>
 
+   
+</body>
+ <script type="module">
+        $('.btnSimpanBarang').on('click', function(simpanEvent) {
+            simpanEvent.preventDefault();
+            simpanEvent.stopImmediatePropagation();
+            let data = {
+                'nama_pemesan': $('#namaPemesan').val(),
+                'nama_pengantin_pria': $('#namaPengantinPria').val(),
+                'nama_pengantin_wanita': $('#namaPengantinWanita').val(),
+                'pria_anak_dari': $('#priaAnakDari').val(),
+                'wanita_anak_dari': $('#wanitaAnakDari').val(),
+                '_token': "{{csrf_token()}}"
+
+            };
+
+            if (data.nama_pemesan !== '' && data.nama_pengantin_pria !== '' && data.nama_pengantin_wanita !== '' && data.pria_anak_dari !== '' && data.wanita_anak_dari !== '') {
+                //Input data    
+                axios.post('{{url("/pesan/simpan")}}', data).then(resp => {
+                    if (resp.data.status == 'success') {
+                        Swal.fire({
+                            title: 'Berhasil',
+                            text: resp.data.pesan,
+                            icon: 'success'
+                        })
+                    } else {
+                        Swal.fire({
+                            title: 'Oooppss data gagal ditambahkan',
+                            text: resp.data.pesan,
+                            icon: 'error'
+                        });
+                    }
+                });
+
+            } else {
+                Swal.fire({
+                    'title': 'Ooopps gagal',
+                    'text': 'Form harus terisi semua',
+                    'icon': 'error'
+                });
+            }
+        });
+    </script>
 </html>
