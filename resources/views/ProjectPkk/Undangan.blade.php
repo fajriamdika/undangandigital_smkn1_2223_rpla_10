@@ -187,7 +187,7 @@
                 <div class="col">
                     <ul class="timeline">
                         <li>
-                            <div class="timeline-image" style="background-image: url('img/coffeshop1.webp');"></div>
+                            <div class="timeline-image" style="background-image: url('assets/coffeshop1.webp');"></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h3>Pertama kali bertemu</h3>
@@ -201,7 +201,7 @@
                             </div>
                         </li>
                         <li class="timeline-inverted">
-                            <div class="timeline-image" style="background-image: url('img/revo.jpg');"></div>
+                            <div class="timeline-image" style="background-image: url('assets/revo.jpg');"></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h3>Mulai Serius</h3>
@@ -248,37 +248,37 @@
 
                     <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
                         <div class="col mt-3">
-                            <a href="assets/gallery/gallery1.jpg" data-toggle="lightbox" data-caption="Adam & Hawa 1"
+                            <a href="assets/gallery1.jpg" data-toggle="lightbox" data-caption="Adam & Hawa 1"
                                 data-gallery="mygallery">
-                                <img src="assets/gallery/thumbnail/gallery2.jpg" alt="Adam & Hawa 1"
+                                <img src="assets/gallery2.jpg" alt="Adam & Hawa 1"
                                     class="img-fluid w-100 rounded">
                             </a>
                         </div>
                         <div class="col mt-3">
-                            <a href="assrts/gallery/gallery3.jpg" data-toggle="lightbox" data-caption="Adam & Hawa 2"
+                            <a href="assets/gallery3.jpg" data-toggle="lightbox" data-caption="Adam & Hawa 2"
                                 data-gallery="mygallery">
-                                <img src="assets/gallery/thumbnail/gallery3.jpg" alt="Adam & Hawa 2"
+                                <img src="assets/gallery3.jpg" alt="Adam & Hawa 2"
                                     class="img-fluid w-100 rounded">
                             </a>
                         </div>
                         <div class="col mt-3">
-                            <a href="img/gallery/gallery4.jpeg" data-toggle="lightbox" data-caption="Adam & Hawa 3"
+                            <a href="assets/gallery4.jpeg" data-toggle="lightbox" data-caption="Adam & Hawa 3"
                                 data-gallery="mygallery">
-                                <img src="assets/gallery/gallery4.jpeg" alt="Adam & Hawa 3"
+                                <img src="assets/gallery4.jpeg" alt="Adam & Hawa 3"
                                     class="img-fluid w-100 rounded">
                             </a>
                         </div>
                         <div class="col mt-3">
-                            <a href="assets/gallery/coffeshop2.webp" data-toggle="lightbox" data-caption="Adam & Hawa 4"
+                            <a href="assets/coffeshop2.webp" data-toggle="lightbox" data-caption="Adam & Hawa 4"
                                 data-gallery="mygallery">
-                                <img src="img/gallery/thumbnail/coffeshop2.webp" alt="Adam & Hawa 4"
+                                <img src="assets/coffeshop2.webp" alt="Adam & Hawa 4"
                                     class="img-fluid w-100 rounded">
                             </a>
                         </div>
                         <div class="col mt-3">
-                            <a href="assets/gallery/revo1.jpg" data-toggle="lightbox" data-caption="Adam & Hawa 5"
+                            <a href="assets/revo1.jpg" data-toggle="lightbox" data-caption="Adam & Hawa 5"
                                 data-gallery="mygallery">
-                                <img src="img/gallery/thumbnail/revo1.jpg" alt="Adam & Hawa 5"
+                                <img src="assets/revo1.jpg" alt="Adam & Hawa 5"
                                     class="img-fluid w-100 rounded">
                             </a>
                         </div>
@@ -334,7 +334,7 @@
 </li>
 <li class="list-group-item">
  <div class="fw-bold">saweria</div>
- <img src="img/qris.saweria.jpeg" alt="Saweria" class="img-thumbnail" width="200">
+ <img src="assets/qris.saweria.jpeg" alt="Saweria" class="img-thumbnail" width="200">
 </li>
 </section>
 

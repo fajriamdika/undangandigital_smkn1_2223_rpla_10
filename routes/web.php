@@ -6,6 +6,7 @@ use \App\Http\Controllers\LoginController;
 use App\Http\Controllers\PesanController;
 
 use App\Http\Controllers\PaketController;
+use App\Http\Controllers\UndanganController;
 // >>>>>>> 30e98294f9dfb8a236f1139f1817ee4d94c67c09
 use Illuminate\Support\Facades\Route;
 
@@ -39,4 +40,4 @@ Route::prefix('/admin')->group(function(){
         Route::get('/tambah',[PaketController::class,'tambah'])->name('admin.paket.tambah');
     });
 });
-
+Route::get('/undangan',[UndanganController::class,'index'])->name('ProjectPkk.index');

@@ -28,12 +28,9 @@
                             <a class="nav-link" href="{{url('/admin/paket/')}}">Paket</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{url('/beli/')}}">Beli</a>
+                            <a class="nav-link" href="{{url('/pemesanan/')}}">Pemesanan</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{url('/stok/')}}">Stok</a>
-                        </li>
-                        <li class="nav-item">
+                         <li class="nav-item">
                             <a class="nav-link" href="#">Logs</a>
                         </li>
                     </ul>

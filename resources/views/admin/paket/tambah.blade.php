@@ -1,7 +1,7 @@
 <div class="row">
     <div class="col-lg-12">
         <div class="form-group">
-            <label>Nama Barang</label>
+            <label>Nama Paket</label>
             <input class="form-control" type="text" name="nama_barang" id="namaBarang"/>
         </div>
         <div class="form-group">
