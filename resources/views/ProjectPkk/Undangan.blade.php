@@ -267,35 +267,32 @@
     </section>
 
     <section id="rsvp" class="rsvp d-flex flex-column align-items-center justify-content-center">
-        <h2>RSVP</h2>
-        <p>Harap konfirmasi kehadiran Anda dengan mengisi formulir di bawah ini.</p>
-        <form action="submit_form.php" method="post" class="d-flex flex-column align-items-center">
-            <div class="form-group mb-3 w-100">
-                <label for="name">Nama:</label>
-                <input type="text" id="name" name="name" class="form-control" required>
-            </div>
-            <div class="form-group mb-3 w-100">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" class="form-control" required>
-            </div>
-            <div class="form-group mb-3 w-100">
-                <label for="attendance">Kehadiran:</label>
-                <select id="attendance" name="attendance" class="form-control" required>
-                    <option value="yes">Ya, saya akan hadir</option>
-                    <option value="no">Maaf, saya tidak bisa hadir</option>
-                </select>
-            </div>
-            <div class="form-group mb-3 w-100">
-                <label for="guests">Jumlah Tamu yang Dibawa:</label>
-                <input type="number" id="guests" name="guests" class="form-control" min="0" max="10" value="0" required>
-            </div>
-            <div class="form-group mb-3 w-100">
-                <label for="message">Pesan untuk Pengantin:</label>
-                <textarea id="message" name="message" class="form-control" rows="4"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Kirim</button>
-        </form>
-    </section>
+    <h2>RSVP</h2>
+    <p>Harap konfirmasi kehadiran Anda dengan mengisi formulir di bawah ini.</p>
+    <form action="submit_form.php" method="post" class="d-flex flex-column align-items-center">
+        <div class="form-group mb-3 w-100">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" class="form-control" required>
+        </div>
+        <div class="form-group mb-3 w-100">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" class="form-control" required>
+        </div>
+        <div class="form-group mb-3 w-100">
+            <label for="attendance">Kehadiran:</label>
+            <select id="attendance" name="attendance" class="form-control" required>
+                <option value="yes">Ya, saya akan hadir</option>
+                <option value="no">Maaf, saya tidak bisa hadir</option>
+            </select>
+        </div>
+        <div class="form-group mb-3 w-100">
+            <label for="message">Pesan untuk Pengantin:</label>
+            <textarea id="message" name="message" class="form-control" rows="4"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Kirim</button>
+    </form>
+</section>
+
 
     <section id="hadiah" class=" hadiah d-flex flex-column align-items-center justify-content-center">
         <h2>Hadiah Pernikahan</h2>
