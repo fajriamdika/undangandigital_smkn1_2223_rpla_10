@@ -9,7 +9,7 @@
         <div class="card">
             <div class="card-header">
                 <h3>Daftar Paket</h3>
-                <button class="btn btn-success" data-bs-title="Tambah Data Paket" attr-href="{{route('paket.tambah')}}"><i class="bi bi-plus"></i> Tambah </button>
+                <button class="btn btn-success" data-bs-title="Tambah Data Paket" attr-href="{{route('admin.paket.tambah')}}"><i class="bi bi-plus"></i> Tambah </button>
             </div>
             <div class="card-body">
                 <table class="table DataTable table-hovered table-bordered">

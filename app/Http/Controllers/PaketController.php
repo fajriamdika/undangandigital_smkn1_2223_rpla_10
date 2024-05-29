@@ -17,10 +17,10 @@ class PaketController extends Controller
     }
 
     public function index(){
-        return view('paket.index');
+        return view('admin.paket.index');
     }
 
     public function tambah(){
-        return view('paket.tambah');
+        return view('admin.paket.tambah');
     }
 }
