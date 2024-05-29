@@ -9,4 +9,5 @@
             <input class="form-control" type="number" name="harga" id="hargaBarang"/>
         </div>
     </div>
+    @csrf
 </div>

@@ -1,4 +1,6 @@
 <?php
+
+use App\Http\Controllers\AdminController;
 use \App\Http\Controllers\LoginController;
 use App\Http\Controllers\PaketController;
 use Illuminate\Support\Facades\Route;
@@ -19,7 +21,10 @@ Route::get('/', function () {
 });
 Route::get('/login',[LoginController::class,'FormLogin'])->name('login.form');
 
-Route::prefix('/paket')->group(function(){
-    Route::get('/',[PaketController::class,'index'])->name('paket.index');
-    Route::get('/tambah',[PaketController::class,'tambah'])->name('paket.tambah');
+Route::prefix('/admin')->group(function(){
+    Route::get('/',[AdminController::class,'dashboard'])->name('admin.dashboard');
+    Route::prefix('paket')->group(function(){
+        Route::get('/',[PaketController::class,'index'])->name('admin.paket.index');
+        Route::get('/tambah',[PaketController::class,'tambah'])->name('admin.paket.tambah');
+    });
 });
