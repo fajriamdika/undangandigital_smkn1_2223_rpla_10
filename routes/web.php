@@ -1,4 +1,6 @@
 <?php
+
+use App\Http\Controllers\AdminController;
 use \App\Http\Controllers\LoginController;
 // <<<<<<< HEAD
 use App\Http\Controllers\PesanController;
@@ -30,8 +32,11 @@ Route::prefix('/pemesanan')->group(function(){
 });
 Route::get('/pemesanan',[PesanController::class,'index'])->name('pesan,index');
 
-Route::prefix('/paket')->group(function(){
-    Route::get('/',[PaketController::class,'index'])->name('paket.index');
-    Route::get('/tambah',[PaketController::class,'tambah'])->name('paket.tambah');
+Route::prefix('/admin')->group(function(){
+    Route::get('/',[AdminController::class,'dashboard'])->name('admin.dashboard');
+    Route::prefix('paket')->group(function(){
+        Route::get('/',[PaketController::class,'index'])->name('admin.paket.index');
+        Route::get('/tambah',[PaketController::class,'tambah'])->name('admin.paket.tambah');
+    });
 });
-// >>>>>>> 30e98294f9dfb8a236f1139f1817ee4d94c67c09
+
