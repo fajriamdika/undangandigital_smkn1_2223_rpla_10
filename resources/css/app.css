@@ -3,6 +3,3 @@
 @import "bootstrap-icons/font/bootstrap-icons.scss";
 @import "select2-bootstrap-5-theme/dist/select2-bootstrap-5-theme.css";
 
-.container{
-    padding-top: 30px !important;
-}
