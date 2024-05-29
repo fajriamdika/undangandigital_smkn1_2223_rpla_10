@@ -17,7 +17,6 @@ return new class extends Migration
             $table->integer('id_akun', true, false)->nullable(false);
             $table->string('username', 200)->nullable (false)->unique('IndexUsername');
             $table->string('password')->nullable(false);
-            $table->timestamps();
         });
 }
 

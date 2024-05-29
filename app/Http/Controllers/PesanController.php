@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\PesanRequest;
 use App\Models\PesanModel;
 use Illuminate\Http\Request;
 
@@ -9,17 +10,11 @@ class PesanController extends Controller
 {
     //
     public function Index(){
+
         return view('pesan.index');
     }
-    public function simpan(Request $request){
-        $data = $request->validated([
-            'nama_pemesan' => ['required'],
-            'nama_pengantin_pria' => ['required'],
-            'nama_pengantin-wanita' => ['required'],
-            'pria_anak_dari' => ['required'],
-            'wanita_anak_dari' => ['required'],
-
-        ]);
+    public function simpan(PesanRequest $request){
+        $data = $request->validated();
         $dataBaru = PesanModel::create($data);
         if($dataBaru):
             $pesan = [
@@ -32,7 +27,7 @@ class PesanController extends Controller
                 'pesan'  => 'Data Barang Baru gagal ditambahkan'
             ];
         endif;
-return response()->json($pesan);
+    return response()->json($pesan);
 
     }
 }

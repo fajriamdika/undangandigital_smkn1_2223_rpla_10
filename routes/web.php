@@ -24,20 +24,22 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/login',[LoginController::class,'FormLogin'])->name('login.form');
-// <<<<<<< HEAD
-Route::prefix('/pemesanan')->group(function(){
-    Route::get('/',[PesanController::class,'index'])->name('pesan,index');
-    Route::post('/simpan',[PesanController::class,'simpan'])->name('pesan.simpan');
 
+Route::get('/login', [LoginController::class, 'FormLogin'])->name('login.form');
+
+
+Route::prefix('/pemesanan')->group(function () {
+    Route::get('/', [PesanController::class,'index'])->name('pesan,index');
+    Route::post('/simpan', [PesanController::class,'simpan'])->name('pesan.simpan');
 });
-Route::get('/pemesanan',[PesanController::class,'index'])->name('pesan,index');
 
-Route::prefix('/admin')->group(function(){
-    Route::get('/',[AdminController::class,'dashboard'])->name('admin.dashboard');
-    Route::prefix('paket')->group(function(){
-        Route::get('/',[PaketController::class,'index'])->name('admin.paket.index');
-        Route::get('/tambah',[PaketController::class,'tambah'])->name('admin.paket.tambah');
+Route::prefix('/admin')->group(function () {
+    Route::get('/', [AdminController::class, 'dashboard'])->name('admin.dashboard');
+});
+
+Route::prefix('paket')->group(function () {
+    Route::get('/', [PaketController::class, 'index'])->name('admin.paket.index');
+    Route::get('/tambah', [PaketController::class, 'tambah'])->name('admin.paket.tambah');
     });
-});
-Route::get('/undangan',[UndanganController::class,'index'])->name('ProjectPkk.index');
+
+Route::get('/undangan', [UndanganController::class, 'index'])->name('ProjectPkk.index');
