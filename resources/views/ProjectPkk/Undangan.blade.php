@@ -5,13 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Adam & Hawa Wedding</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sacramento&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sacramento&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <!--simply countdown-->
     <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
@@ -38,12 +35,10 @@
     <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
         <div class="container">
             <a class="navbar-brand" href="#">Adam Wedding</a>
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
                     <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Adam & Hawa</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -77,9 +72,7 @@
                     <div class="row">
                         <div class="col-8-text-end">
                             <h3>adam</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga accusamus ea, eius animi
-                                cum unde neque iusto obcaecati quasi. Minus
-                                ipsa adipisci aperiam </p>
+                            <p>Hari ini adalah awal dari perjalanan baru yang penuh dengan cinta dan kebahagiaan. Ingatlah bahwa pernikahan adalah tentang kerjasama, pengertian, dan dukungan satu sama lain. Setiap tantangan yang datang akan membuat hubungan kalian semakin kuat jika dihadapi bersama. Jadilah suami yang penuh kasih, yang selalu menghargai dan mencintai pasanganmu tanpa syarat. Dengan komitmen dan cinta yang tulus, kalian akan menciptakan kehidupan yang indah bersama. Selamat menempuh hidup baru, dan semoga setiap hari dalam pernikahan kalian dipenuhi dengan kebahagiaan dan kedamaian.</p>
                             <p>Putra Dari Bpk.Lorem <br>dan <br> Ibu ipsum</p>
                         </div>
                         <div class="col-4">
@@ -91,9 +84,7 @@
                     <div class="row">
                         <div class="col-8-text-end">
                             <h3>hawa</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga accusamus ea, eius animi
-                                cum unde neque iusto obcaecati quasi. Minus
-                                ipsa adipisci aperiam </p>
+                            <p> Hari ini adalah momen yang istimewa dan bersejarah dalam hidupmu, awal dari babak baru yang penuh dengan cinta dan harapan. Ingatlah bahwa pernikahan adalah tentang saling mendukung dan tumbuh bersama, melalui setiap suka dan duka. Jadilah istri yang penuh kasih sayang dan pengertian, yang selalu ada untuk mendengarkan dan memberi semangat. Percayalah bahwa dengan cinta yang tulus dan komitmen yang kuat, kalian akan mampu mengatasi segala tantangan dan menciptakan kehidupan yang indah bersama. Selamat menempuh hidup baru, dan semoga setiap langkah dalam perjalanan pernikahanmu dipenuhi dengan kebahagiaan dan berkah</p>
                             <p>Putra Dari Bpk.Lorem <br>dan <br> Ibu ipsum</p>
                             <div class="col-4">
                                 <img src="assets/pengantin perempuan.jpg" alt="Adam" class="img-responsive rounded-circle">
@@ -113,7 +104,7 @@
                     <p class="alamat">alamat: Gedung Grand Kamala Lagoon<br> Jl. KH. Noer Ali, Kayuringin Jaya, Kec.
                         Bekasi Sel., Kota Bks, Jawa Barat </p>
 
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7932.157388081229!2d106.9761422!3d-6.2533622!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698d7d5dac57a5%3A0x39a384f17bbda0d1!2sApartemen%20Grand%20Kamala%20Lagoon!5e0!3m2!1sid!2sid!4v1716815578732!5m2!1sid!2sid" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7932.157388081229!2d106.9761422!3d-6.2533622!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698d7d5dac57a5%3A0x39a384f17bbda0d1!2sApartemen%20Grand%20Kamala%20Lagoon!5e0!3m2!1sid!2sid!4v1716815578732!5m2!1sid!2sid" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
                     <a href="https://maps.app.goo.gl/BLszmgHGz5pfBQ486" class="btn btn-light btn-sm my-3">Klik untuk
                         melihat peta</a>
@@ -178,16 +169,14 @@
                 <div class="col-md-8 col-10 text-center">
                     <span>Bagaimana Cinta Kami Muncul</span>
                     <h2>Cerita Kami</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi cupiditate pariatur sint
-                        delectus, iste minima praesentium consectetur nam est provident porro assumenda accusamus cumque
-                        ipsa </p>
+                    <p>Kisah kami dimulai dari sebuah mimpi besar yang berawal dari langkah kecil. Dengan dedikasi dan kerja keras, kami membangun sesuatu yang tidak hanya menjadi sebuah usaha, tetapi juga menjadi bagian penting dari komunitas kami. Setiap tantangan yang kami hadapi telah membentuk kami menjadi lebih kuat dan lebih berkomitmen untuk memberikan yang terbaik. Kami percaya bahwa dengan semangat kebersamaan dan inovasi, kami dapat terus berkembang dan memberikan dampak positif. Inilah kisah kami, sebuah perjalanan yang penuh dengan inspirasi, kerja keras, dan keinginan untuk menciptakan masa depan yang lebih baik. </p>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
                     <ul class="timeline">
                         <li>
-                            <div class="timeline-image" style="background-image: url('img/coffeshop1.webp');"></div>
+                            <div class="timeline-image" style="background-image: url('assets/coffeshop1.webp');"></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h3>Pertama kali bertemu</h3>
@@ -201,7 +190,7 @@
                             </div>
                         </li>
                         <li class="timeline-inverted">
-                            <div class="timeline-image" style="background-image: url('img/revo.jpg');"></div>
+                            <div class="timeline-image" style="background-image: url('assets/revo.jpg');"></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h3>Mulai Serius</h3>
@@ -241,136 +230,125 @@
                         <div class="col-md-8 col-10 text-center">
                             <span>Memori Kisah Kami</span>
                             <h2>Gallery foto</h2>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, exercitationem.
+                            <p>Selamat datang di galeri foto kami, tempat di mana setiap gambar menceritakan kisah yang indah. Dalam koleksi ini, Anda akan menemukan berbagai momen berharga yang telah kami abadikan, mulai dari pemandangan alam yang memukau hingga momen kebersamaan yang penuh kehangatan. Kami berharap galeri ini dapat membawa Anda ke dalam perjalanan visual yang menginspirasi dan memberikan kenangan tak terlupakan. Nikmati setiap detil dan biarkan setiap foto berbicara kepada Anda dengan caranya sendiri.
                             </p>
                         </div>
                     </div>
 
                     <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
-                        <div class="col mt-3">
-                            <a href="assets/gallery/gallery1.jpg" data-toggle="lightbox" data-caption="Adam & Hawa 1"
-                                data-gallery="mygallery">
-                                <img src="assets/gallery/thumbnail/gallery2.jpg" alt="Adam & Hawa 1"
-                                    class="img-fluid w-100 rounded">
-                            </a>
-                        </div>
-                        <div class="col mt-3">
-                            <a href="assrts/gallery/gallery3.jpg" data-toggle="lightbox" data-caption="Adam & Hawa 2"
-                                data-gallery="mygallery">
-                                <img src="assets/gallery/thumbnail/gallery3.jpg" alt="Adam & Hawa 2"
-                                    class="img-fluid w-100 rounded">
-                            </a>
-                        </div>
-                        <div class="col mt-3">
-                            <a href="img/gallery/gallery4.jpeg" data-toggle="lightbox" data-caption="Adam & Hawa 3"
-                                data-gallery="mygallery">
-                                <img src="assets/gallery/gallery4.jpeg" alt="Adam & Hawa 3"
-                                    class="img-fluid w-100 rounded">
-                            </a>
-                        </div>
-                        <div class="col mt-3">
-                            <a href="assets/gallery/coffeshop2.webp" data-toggle="lightbox" data-caption="Adam & Hawa 4"
-                                data-gallery="mygallery">
-                                <img src="img/gallery/thumbnail/coffeshop2.webp" alt="Adam & Hawa 4"
-                                    class="img-fluid w-100 rounded">
-                            </a>
-                        </div>
-                        <div class="col mt-3">
-                            <a href="assets/gallery/revo1.jpg" data-toggle="lightbox" data-caption="Adam & Hawa 5"
-                                data-gallery="mygallery">
-                                <img src="img/gallery/thumbnail/revo1.jpg" alt="Adam & Hawa 5"
-                                    class="img-fluid w-100 rounded">
-                            </a>
-                        </div>
-                    </div>
-
+        <div class="col mt-3">
+            <a href="assets/gallery3.jpg" data-toggle="lightbox" data-caption="Adam & Hawa 1" data-gallery="mygallery">
+                <img src="assets/gallery3.jpg" alt="Adam & Hawa 1" class="img-fluid w-100 rounded">
+            </a>
+        </div>
+        <!-- <div class="col mt-3">
+            <a href="assets/gallery4.jpg" data-toggle="lightbox" data-caption="Adam & Hawa 2" data-gallery="mygallery">
+                <img src="assets/gallery4.jpg" alt="Adam & Hawa 2" class="img-fluid w-100 rounded">
+            </a>
+        </div> -->
+        <div class="col mt-3">
+            <a href="assets/gallery4.jpeg" data-toggle="lightbox" data-caption="Adam & Hawa 3" data-gallery="mygallery">
+                <img src="assets/gallery4.jpeg" alt="Adam & Hawa 3" class="img-fluid w-100 rounded">
+            </a>
+        </div>
+        <div class="col mt-3">
+            <a href="assets/coffeshop2.webp" data-toggle="lightbox" data-caption="Adam & Hawa 4" data-gallery="mygallery">
+                <img src="assets/coffeshop2.webp" alt="Adam & Hawa 4" class="img-fluid w-100 rounded">
+            </a>
+        </div>
+        <div class="col mt-3">
+            <a href="assets/revo1.jpg" data-toggle="lightbox" data-caption="Adam & Hawa 5" data-gallery="mygallery">
+                <img src="assets/revo1.jpg" alt="Adam & Hawa 5" class="img-fluid w-100 rounded">
+            </a>
+        </div>
+    </div>
                 </div>
         </div>
- </section>
+    </section>
 
- <section id="rsvp" class="rsvp d-flex flex-column align-items-center justify-content-center">
-    <h2>RSVP</h2>
-    <p>Harap konfirmasi kehadiran Anda dengan mengisi formulir di bawah ini.</p>
-    <form action="submit_form.php" method="post" class="d-flex flex-column align-items-center">
-        <div class="form-group mb-3 w-100">
-            <label for="name">Nama:</label>
-            <input type="text" id="name" name="name" class="form-control" required>
-        </div>
-        <div class="form-group mb-3 w-100">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" class="form-control" required>
-        </div>
-        <div class="form-group mb-3 w-100">
-            <label for="attendance">Kehadiran:</label>
-            <select id="attendance" name="attendance" class="form-control" required>
-                <option value="yes">Ya, saya akan hadir</option>
-                <option value="no">Maaf, saya tidak bisa hadir</option>
-            </select>
-        </div>
-        <div class="form-group mb-3 w-100">
-            <label for="guests">Jumlah Tamu yang Dibawa:</label>
-            <input type="number" id="guests" name="guests" class="form-control" min="0" max="10" value="0" required>
-        </div>
-        <div class="form-group mb-3 w-100">
-            <label for="message">Pesan untuk Pengantin:</label>
-            <textarea id="message" name="message" class="form-control" rows="4"></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Kirim</button>
-    </form>
-</section>
+    <section id="rsvp" class="rsvp d-flex flex-column align-items-center justify-content-center">
+        <h2>RSVP</h2>
+        <p>Harap konfirmasi kehadiran Anda dengan mengisi formulir di bawah ini.</p>
+        <form action="submit_form.php" method="post" class="d-flex flex-column align-items-center">
+            <div class="form-group mb-3 w-100">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" class="form-control" required>
+            </div>
+            <div class="form-group mb-3 w-100">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" class="form-control" required>
+            </div>
+            <div class="form-group mb-3 w-100">
+                <label for="attendance">Kehadiran:</label>
+                <select id="attendance" name="attendance" class="form-control" required>
+                    <option value="yes">Ya, saya akan hadir</option>
+                    <option value="no">Maaf, saya tidak bisa hadir</option>
+                </select>
+            </div>
+            <div class="form-group mb-3 w-100">
+                <label for="guests">Jumlah Tamu yang Dibawa:</label>
+                <input type="number" id="guests" name="guests" class="form-control" min="0" max="10" value="0" required>
+            </div>
+            <div class="form-group mb-3 w-100">
+                <label for="message">Pesan untuk Pengantin:</label>
+                <textarea id="message" name="message" class="form-control" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Kirim</button>
+        </form>
+    </section>
 
-<section id="hadiah" class=" hadiah d-flex flex-column align-items-center justify-content-center">
-    <h2>Hadiah Pernikahan</h2>
-    <p>Jika Anda ingin memberikan hadiah, berikut beberapa pilihan yang bisa Anda pertimbangkan:</p>
-</div>
-<p>Atau Anda bisa memberikan angpao secara online melalui rekening berikut:</p>
-<li class="list-group-item">
- <div class="fw-bold">BCA</div>
- 123456789 - Adam & Hawa
-</li>
-<li class="list-group-item">
- <div class="fw-bold">Mandiri</div>
- 928347923652 - Adam & Hawa
-</li>
-<li class="list-group-item">
- <div class="fw-bold">saweria</div>
- <img src="img/qris.saweria.jpeg" alt="Saweria" class="img-thumbnail" width="200">
-</li>
-</section>
+    <section id="hadiah" class=" hadiah d-flex flex-column align-items-center justify-content-center">
+        <h2>Hadiah Pernikahan</h2>
+        <p>Jika Anda ingin memberikan hadiah, berikut beberapa pilihan yang bisa Anda pertimbangkan:</p>
+        </div>
+        <p>Atau Anda bisa memberikan angpao secara online melalui rekening berikut:</p>
+        <li class="list-group-item">
+            <div class="fw-bold">BCA</div>
+            123456789 - Adam & Hawa
+        </li>
+        <li class="list-group-item">
+            <div class="fw-bold">Mandiri</div>
+            928347923652 - Adam & Hawa
+        </li>
+        <li class="list-group-item">
+            <div class="fw-bold">saweria</div>
+            <img src="assets/qris.saweria.jpeg" alt="Saweria" class="img-thumbnail" width="200">
+        </li>
+    </section>
 
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col text-center">
-                <small class="block">&copy;Adam& Hawa Wedding All right reserve</small>
-                <small class="block">Design by <a href="https://instagram.com/iam.jri">@iam.jri</a></small>
-                <ul>
-                    <li>
-                        <a href="#"><i class="bi bi-instagram"></i></a>
-                    </li>
-                </ul>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <small class="block">&copy;Adam& Hawa Wedding All right reserve</small>
+                    <small class="block">Design by <a href="https://instagram.com/iam.jri">@iam.jri</a></small>
+                    <ul>
+                        <li>
+                            <a href="#"><i class="bi bi-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
+    </footer>
+
+    <div id="audio-container">
+        <audio id="song" autoplay loop>
+            <source src="audio/loves-serenade-188266.mp3" type="audio/mp3">
+        </audio>
+        <div class="audio-icon-wrapper" style="display: none;">
+            <i class="bi bi-disc"></i>
+        </div>
     </div>
-</footer>
-
-<div id="audio-container">
-    <audio id="song" autoplay loop>
-        <source src="audio/loves-serenade-188266.mp3" type="audio/mp3">
-    </audio>
-    <div class="audio-icon-wrapper" style="display: none;">
-        <i class="bi bi-disc"></i>
-    </div>
-</div> 
 
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+
+    
 
 
     <script>
@@ -381,10 +359,22 @@
             hours: 8, // Default is 0 [0-23] integer
             seconds: 0, // Default is 0 [0-59] integer
             words: { //words displayed into the countdown
-                days: { singular: 'hari', plural: 'hari' },
-                hours: { singular: 'jam', plural: 'jam' },
-                minutes: { singular: 'menit', plural: 'menit' },
-                seconds: { singular: 'detik', plural: 'detik' }
+                days: {
+                    singular: 'hari',
+                    plural: 'hari'
+                },
+                hours: {
+                    singular: 'jam',
+                    plural: 'jam'
+                },
+                minutes: {
+                    singular: 'menit',
+                    plural: 'menit'
+                },
+                seconds: {
+                    singular: 'detik',
+                    plural: 'detik'
+                }
             },
         });
     </script>
@@ -393,14 +383,13 @@
         const stickyTop = document.querySelector('.sticky-top');
         const offcanvas = document.querySelector('.offcanvas');
 
-        offcanvas.addEventListener('show.bs.offcanvas', function () {
+        offcanvas.addEventListener('show.bs.offcanvas', function() {
             stickyTop.style.overflow = 'visible';
         });
 
-        offcanvas.addEventListener('hidden.bs.offcanvas', function () {
+        offcanvas.addEventListener('hidden.bs.offcanvas', function() {
             stickyTop.style.overflow = 'hidden';
         });
-
     </script>
 
     <script>
@@ -415,7 +404,7 @@
             scrollTop = window.pageYoffset || document.documentElement.scrollTop;
             scrollLeft = window.pageYoffset || document.documentElement.scrollLeft;
 
-            window.onscroll = function () {
+            window.onscroll = function() {
                 window.scrollTo(scrollTop, scrollLeft);
             }
             rootElement.style.scrollBehavior = 'auto';
@@ -423,26 +412,26 @@
 
 
         function enableScroll() {
-            window.onscroll = function () { }
+            window.onscroll = function() {}
             rootElement.style.scrollBehavior = 'smooth';
             //localStorage.setItem('opened', 'true');
             playAudio();
         }
 
-        function playAudio(){
+        function playAudio() {
             song.volume = 0.1;
             audioIconWrapper.style.display = 'flex';
             song.play();
             isPlaying = true;
         }
 
-        audioIconWrapper.onclick =function(){
-            if(isPlaying){
+        audioIconWrapper.onclick = function() {
+            if (isPlaying) {
                 song.pause();
                 audioIcon.classList.remove('bi-disc');
                 audioIcon.classList.add('bi-pause-circle');
-                
-            }else{
+
+            } else {
                 song.play();
                 audioIcon.classList.add('bi-disc');
                 audioIcon.classList.remove('bi-pause-circle');
@@ -452,21 +441,20 @@
         }
 
 
-    //    if (!localStorage.getItem('opened')) {
-        
+        //    if (!localStorage.getItem('opened')) {
+
         //        }
-        
-              disableScroll();
-        </script>
 
-        <script>
-            const urlParams = new URLSearchParams(window.location.search);
-            const nama = urlParams.get('n')|| '';
-            const pronoun =urlParams.get('p')|| Bapak/Ibu/saudara/i;
-            const namaContainer = document.querySelector('.hero h4 span');
-            namaContainer.innerText = `${pronoun} ${nama},` .replace(/ ,$/,',');
+        disableScroll();
+    </script>
 
-        </script>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const nama = urlParams.get('n') || '';
+        const pronoun = urlParams.get('p') || Bapak / Ibu / saudara / i;
+        const namaContainer = document.querySelector('.hero h4 span');
+        namaContainer.innerText = `${pronoun} ${nama},`.replace(/ ,$/, ',');
+    </script>
 </body>
 
 </html>

@@ -255,12 +255,12 @@ font-weight: bold;
     content:'';
     display: inline-block;
     position: absolute;
-   border-top: 15px solid transparent;
-   border-left: 15px solid black;
+   border-top: 14px solid transparent;
+   border-left: 14px solid black;
    border-right: 0 solid black;
-   border-bottom: 15px solid transparent;
-   top: 80px;
-   right: -15px;
+   border-bottom: 14px solid transparent;
+   top: 81px;
+   right: -13px;
 }
 
 .timeline li .timeline-panel::after{
@@ -277,6 +277,13 @@ font-weight: bold;
 .timeline li.timeline-inverted .timeline-panel{
     float: right;
 
+}
+
+.timeline li.timeline-inverted .timeline-panel::before{
+    border-left-width: 0;
+    border-right-width: 15px;
+    left: -15px;
+    right: auto;
 }
 
 .timeline li.timeline-inverted .timeline-panel::after{
