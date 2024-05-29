@@ -1,18 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    @vite(['resources/css/app.css','resources/js/app.js'])
-    <title>Undangan Digital</title>
-</head>
-<body>
-<div class="col-md-12">
-        <div class="card">
-            <div class="card-header">
-                <h3>Daftar Paket</h3>
-                <button class="btn btn-success" data-bs-title="Tambah Data Paket" attr-href="{{route('admin.paket.tambah')}}"><i class="bi bi-plus"></i> Tambah </button>
-            </div>
-            <div class="card-body">
-                <table class="table DataTable table-hovered table-bordered">
+@extends ('template/admin')
+
+@section('content')
+<div class="row">
+        <div class="col-md-12">
+            <h2>Daftar Paket Undangan</h2>
+            <a href="{{ route('admin.paket.tambah') }}" class="btn btn-primary mb-3">Tambah Paket</a>
+            <div class="table-responsive">
+                <table class="table table-striped">
                     <thead>
                         <tr>
                             <th>Nama Paket</th>
@@ -20,18 +14,10 @@
                             <th>Aksi</th>
                         </tr>
                     </thead>
-                    <tbody>
-                        
+                    
                     </tbody>
                 </table>
             </div>
-            <div class="card-footer">
-
-            </div>
         </div>
-
-</body>
-<footer>
-</footer>
-</html>
-
+    </div>
+@endsection
