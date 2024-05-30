@@ -272,7 +272,7 @@
     <form action="submit_form.php" method="post" class="d-flex flex-column align-items-center">
         <div class="form-group mb-3 w-100">
             <label for="name">Nama:</label>
-            <input type="text" id="name" name="name" class="form-control" required>
+            <input type="text" id="nama" name="nama" class="form-control" required>
         </div>
         <div class="form-group mb-3 w-100">
             <label for="email">Email:</label>
